@@ -1,6 +1,6 @@
 # 오재영 202130417
 
-## <span style="color:#aaaaaa;">3월 20일 강의 내용 </span>
+## <span style="color:#00ffff;">3월 20일 강의 내용 </span>
 
 ## 리액트의 정의
 
