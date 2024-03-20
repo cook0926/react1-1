@@ -9,7 +9,7 @@ git init  (로그인)
 git config user.name "닉네임"  
 git config user.email "cook0926@naver.com"  
 it config user.name  (닉네임 확인)  
-git config user.emai (이메일 확인)
+git config user.email (이메일 확인)
 
 node -v (node 버전 확인하기)
 
