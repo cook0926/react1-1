@@ -46,8 +46,11 @@
 
 `npm install -g npm@10.5.0`npm 버전업  
 `npx -v`npm 버전보기   
-`npx create-react-app test-app`  리액트설치
-`npm start` 리액트실행 app.css 경로에서 실행해야됨!!
+`npx create-react-app test-app`  리액트설치  
+`npm start` 리액트실행 app.css 경로에서 실행해야됨!!  
+
+`4058 경로오류`  
+`4077 한번더 시도`
 
 
 
