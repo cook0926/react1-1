@@ -3,29 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Welcome from './Welcome';
-import CommentList from './Comment/CommentList';
-
-
+import Hello from './Hello'
+import Library from './boox(03.27)/Library';
+import Clock from './Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-
-<React.StrictMode>
-    <App/>
-    <Welcome name="인제" />
-
-        <div>
-            <Welcome name="Mike"/>
-            <Welcome name="Steve"/>
-            <Welcome name="Jane"/>
-            
-        </div>
-        <CommentList></CommentList>
-</React.StrictMode>
+setInterval(()=> {
+  root.render(
+  <React.StrictMode>
+    <App />
+    <Hello toWhat="World" />
+    <Library/>
+    <Clock/>
+  </React.StrictMode>
 );
- 
-
+}, 1000)
 
 
 // If you want to start measuring performance in your app, pass a function
