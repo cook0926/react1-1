@@ -1,12 +1,12 @@
-import './App.css';
-import Counter from './(04.17)/Counter';
-
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Example from "./Eaxmple.js";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Example />
     </div>
   );
 }

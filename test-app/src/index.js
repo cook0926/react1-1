@@ -4,9 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Welcome from './Welcome';
-import CommentList from './Comment/CommentList';
-import Counter from './(04.17)/Counter';
-import FocusButton from './(04.17)/FocusButton';
+
+
 
 
 
@@ -15,19 +14,10 @@ root.render(
 
 <React.StrictMode>
     <App/>
-    <Welcome name="인제" />
-
-        <div>
-            <Welcome name="Mike"/>
-            <Welcome name="Steve"/>
-            <Welcome name="Jane"/>
-            <Counter/>
-            <FocusButton/>
-            
-        </div>
+    
         
         
-        <CommentList></CommentList>
+        
 </React.StrictMode>
 );
  
