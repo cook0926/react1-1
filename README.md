@@ -1,4 +1,68 @@
 ## 오재영 202130417
+
+# <span style="color:#00ffff;">5월 8일 강의 내용 </span>
+## 8장
+DOM Event  
+`<button onClick="activate()">Activate</button>`  
+React의 Event  
+`<button onClick={activate}>
+  Activate
+</button>`  
+Event Handler  
+어떤 사건이 발생하면 사건을 처리하는 역할  
+EventListener로 불리기도 함
+
+## 9장 Conditional Rendering
+
+Conditional Rendering  
+조건부 렌더링(어떠한 조건에 따라서 렌더링이 달라지는 것)
+```
+function Greeting(props){
+  const isLoggedIn = props.isLoggedIn;
+  
+  if(isLoggedIn){
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
+```
+
+조건에 따라 렌더링 결과 달라짐  
+Truthy true는 아니지만 true로 여겨지는 값  
+Falsy false는 아니지만 false로 여겨지는 값  
+``````
+// truthy
+true
+{} (empty object)
+[] (empty array)
+42 (number, not zero)
+"0", "false" (string, not empty)
+
+// falsey
+0, -0 (zero, minus zero)
+0n (BigInt zero)
+'', "", ``, (empty string)
+null
+undefined
+NaN (not a number)
+``````
+
+Element Variables  
+렌더링 된 element를 변수 취급 가능
+
+button이란 변수에 component를 넣어 component를 렌더링
+
+Inline Conditions
+조건문을 코드안에 집어넣는 것
+
+(1) InlineIf
+&& 연산자를 사용
+
+true && expression → expression
+false && expression → false
+
+![Alt text](image-19.png)
+
 # <span style="color:#00ffff;">5월 1일 강의 내용 </span>
 
 ## 8장
