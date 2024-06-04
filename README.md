@@ -1,5 +1,22 @@
 ## 오재영 202130417
 
+
+# <span style="color:#00ffff;">5월 29일 강의 내용 </span>
+## textarea 태그
+
+* HTML에서는 `<textarea>`의 children으로 텍스트가 들어가는 형식입니다.
+
+* 리액트에서는 state를 통해 태그의 value라는 attribute를 변경하여 텍스트를 표시합니다.
+
+## File input 태크 
+* File input 태그는 그 값이 읽기 전용이기 때문에 리액트에서는 비제어 컴포넌트가 됩니다.
+`<input type="file"/>`
+
+## Input Null Value
+* 제어 컴포넌트에 value prop을 정해진 값으로 넣으면 코드를 수정하지 않는 한 입력값을 바꿀 수 없습니다.
+* 만약 value prop은 넣되 자유롭게 입력할 수 있게 만들고 싶다면 값이 undefined 또는 null을 넣어주면 됩니다.
+![Alt text](image.png)
+
 # <span style="color:#00ffff;">5월 22일 강의 내용 </span>
 ## 10장
 ### 리스트와 키란 무엇인가?
