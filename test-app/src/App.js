@@ -8,6 +8,10 @@ import NumberList from "./0522-2/NumberList.jsx";
 import AttendanceBook from "./0522-2/AttendanceBook.jsx";
 import SignUp from "./0529-1/SignUp.jsx";
 
+import Calcuator from "./0605-1/Calculator.jsx";
+import Calculator from "./0605-1/Calculator.jsx";
+import ProfileCard from "./0611-1/ProfileCard.jsx";
+import MainPage from "./0612-1/dark.jsx";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
       {/* <LandingPage/>
       <NumberList/>
       <AttendanceBook/> */}
-      <SignUp></SignUp>
+      {/* <SignUp></SignUp> */}
+      {/* <Calculator></Calculator> */}
+      {/* <ProfileCard/> */}
+      <MainPage></MainPage>
+
       
     </div>
   );
